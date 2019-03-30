@@ -1,0 +1,139 @@
+@font-face {
+    font-family: foundrymonoline-regular;
+    src: url(../font/foundrymonoline-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: foundrymonoline-exbold;
+    src: url(../font/foundrymonoline-exbdita-webfont.woff);
+}
+
+@font-face {
+    font-family: foundrymonoline-bold;
+    src: url(../font/foundrymonoline-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: foundrymonoline-medita;
+    src: url(../font/foundrymonoline-medita-webfont.woff);
+}
+
+$primary-color: #CC2031;
+
+p {
+    font-family: foundrymonoline-regular;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: foundrymonoline-exbold;
+    font-size: 34px;
+}
+
+h4 {
+    font-family: foundrymonoline-exbold;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: foundrymonoline-exbold;
+    font-size: 24px;
+}
+
+.img-thumbnail {
+    border-radius: 0;
+}
+
+.bt-1 {
+    border-top: 1px solid $primary-color;
+}
+
+li a {
+    font-family: foundrymonoline-regular;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #5D5C5C;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.tl- {
+    font-family: foundrymonoline-medita;
+}
+
+.tl-m-caption {
+    right: inherit;
+    left: 10%;
+}
+
+.caption-description {
+    font-size: 14px;
+}
+
+.carousel-indicators li {
+    background: #808080;
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.mt-3-5 {
+    margin-top: 3.5rem;
+}
+
+.mt-4-5 {
+    margin-top: 2rem;
+}
+
+.pt-5-5 {
+    padding-top: 5rem;
+}
+
+.mb-5-5 {
+    margin-bottom: 4rem;
+}
+
+.btn-transparent {
+    background-color: #fff;
+    border-color: #D5D5D5;
+    width: 100%;
+    font-size: 14px;
+    color: #000000;
+}
+
+.card-br {
+    border-radius: 0;
+}
+
+.btn-footer {
+    background-color: #fff;
+    border-color: $primary-color;
+    width: 45%;
+    font-size: 14px;
+    color: #000000;
+}
+
+.lh-3 {
+    line-height: 0.3;
+}
+
+.text-footer {
+    font-family: foundrymonoline-exbold;
+    color: $primary-color;
+    font-size: 26px;
+}
+
+.description-text {
+    font-family: foundrymonoline-medita;
+    font-size: 15px;
+}
+
+.box-spacing {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 15px;
+}
